@@ -1,7 +1,6 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(feet) {
-  let result;
-
+function scuberGreetingForFeet(feet) {
+    let result;
 if (feet <= 400) {
     result = 'This one is on me!'} else if (feet > 2000 && feet < 2500 ) {
         result = 'I will gladly take your thirty bucks.'
@@ -10,8 +9,7 @@ if (feet <= 400) {
                 }
     return result;
 }
-
-function ternaryCheckCity(city) {
+ function ternaryCheckCity(city) {
     let result = city == "NYC" ? "Ok, sounds good." : "No go."
     return result
 }
