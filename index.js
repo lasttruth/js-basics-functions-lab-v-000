@@ -10,3 +10,21 @@ if (feet <= 400) {
                 }
     return result;
 }
+
+function ternaryCheckCity(city) {
+    let result = city == "NYC" ? "Ok, sounds good." : "No go."
+    return result
+}
+ function switchOnCharmFromTip(tip){
+    switch (tip) {
+        case "generous":
+            return "Thank you so much.";
+            break;
+        case 'not as generous':
+            return "Thank you.";
+            break;
+        case 'thanks for everything':
+            return "Bye.";
+            break;
+     }
+}
